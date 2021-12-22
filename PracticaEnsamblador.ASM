@@ -298,7 +298,7 @@ MoverAbajoPalaDer       ld a,(PalaDer+1)                ;
 Volver4                 RET                             ;
 
 ; ---------------------------------------------------------------------------------------------
-; rutina para añadir 1 punto
+; rutina para aÃ±adir 1 punto
 SumarPuntoIzq           LD A, (PuntosIzq+3)             ;
                         INC A                           ;
                         CP '2'                          ;
@@ -419,7 +419,7 @@ Pelota                  defb 22,10,16, "o"              ;
 
 DirEjeX                 defb 0                          ;
 DirEjeY                 defb 0                          ;
-
+ 
 PuntosIzq               defb 22,1,1,"0"                 ;
 PuntosDer               defb 22,1,31,"0"                ;
 
